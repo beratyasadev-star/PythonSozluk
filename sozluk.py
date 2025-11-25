@@ -20,6 +20,7 @@ def kelime_ara():
         tanim = sozluk[aranan_kelime]
         print(f"\n✅ Kelime: {aranan_kelime.capitalize()}")
         print(f"Tanım: {tanim}")
+        print("Tebrikler! 🎉")
     else:
         print(f"\n❌ Üzgünüm, '{aranan_kelime}' kelimesi sözlükte bulunamadı.")
 
