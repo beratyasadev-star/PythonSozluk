@@ -1,4 +1,5 @@
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import Optional
 import threading
@@ -6,6 +7,19 @@ import threading
 from sozluk import sozluk, save_sozluk, load_sozluk, wiktionary_kelime_cek, bulk_load_from_source
 
 app = FastAPI(title="PythonSozluk API", version="0.1")
+
+# Allow frontend dev server to access the API during development
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:5173",
+        "http://127.0.0.1:5173",
+        "https://beratyasadev-star.github.io",
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 class AddWord(BaseModel):
