@@ -182,6 +182,10 @@ curl 'http://localhost:8000/words?limit=10'
 
 ---
 
+Redeploy note: triggered a workflow dispatch by committing a timestamp to force GitHub Actions to rebuild and publish the frontend.
+
+Redeploy triggered at: 2025-11-26T00:00:00Z
+
 ## 📚 Teknik Stack
 
 - **Backend:** Python 3.8+, FastAPI, Uvicorn
