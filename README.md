@@ -186,9 +186,7 @@ Render'a push yaptığınızda `render.yaml` otomatik olarak:
 
 Projeyi fork'layıp pull request gönderebilirsiniz. Her türlü katkı ve öneri değerlidir!
 
-## ⚖️ Lisans ve Kullanım
 
-Bu proje eğitim amaçlıdır. Wiktionary ve Nisanyan'dan otomatik veri çekerken ilgili sitelerin kullanım koşullarına ve robots.txt dosyalarına uyun. Aşırı istek göndermekten kaçının.
 
 ---
 
