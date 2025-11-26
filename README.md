@@ -5,7 +5,6 @@ Modern, web tabanlı bir Türkçe sözlük uygulaması. Kelimelerin anlamların�
 ## 🌐 Canlı Demo
 
 **Frontend (Kullanıcı Arayüzü):** https://beratyasadev-star.github.io/PythonSozluk/  
-**Backend (API):** https://pythonsozluk.onrender.com
 
 ## 🎯 Proje Nedir?
 
